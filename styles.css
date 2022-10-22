@@ -1,36 +1,23 @@
-/*css test*/
 body {
-  background-image: url("https://wallpaperaccess.com/full/53084.jpg");
   font-family: verdana;
-  color: white
+  color: white;
+  background-image: url("https://i.pinimg.com/originals/ca/4d/23/ca4d2391455ade48053c0b6861842574.gif");
+  text-decoration: none
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.topbar {
+  background-color: black;
+  font-size: 40px;
+  font-family: verdana
 }
 
-.topnav{
-  background-color: #333;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.topbar a {
+  color: white;
+  text-decoration: none
 }
 
-.topnav a:hover {
-  background-color: #ddd;
+.topbar a:hover {
+  background-color: cyan;
   color: black;
 }
 
-.topnav a:active {
-  background-color: #04AA6D;
-  color: white;
-}
